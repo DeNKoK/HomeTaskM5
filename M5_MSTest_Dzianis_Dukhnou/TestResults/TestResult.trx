@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="82a30c88-29a2-4d64-b0c5-f5378b8d1b1c" name="Dzianis_Dukhnou@EPBYMINW069C 2021-06-12 22:01:06" runUser="MINSK\Dzianis_Dukhnou" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-06-12T22:01:06.9215216+03:00" queuing="2021-06-12T22:01:06.9215216+03:00" start="2021-06-12T22:01:05.8969967+03:00" finish="2021-06-12T22:01:07.3244590+03:00" />
+  <TestSettings name="default" id="66c4fa9c-e599-476c-b439-28441702d869">
+    <Deployment runDeploymentRoot="Dzianis_Dukhnou_EPBYMINW069C_2021-06-12_22_01_06" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="139c7226-ffc2-4c2b-baa4-711616c76bfa" testId="0017af6f-5e15-af5e-4723-fcb3848fdd66" testName="IsPositive_False" computerName="EPBYMINW069C" duration="00:00:00.0002210" startTime="2021-06-12T22:01:07.2446984+03:00" endTime="2021-06-12T22:01:07.2456796+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="139c7226-ffc2-4c2b-baa4-711616c76bfa" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="06cf23b0-cfee-46c6-aec2-ae3c30d202a1" parentExecutionId="139c7226-ffc2-4c2b-baa4-711616c76bfa" testId="0017af6f-5e15-af5e-4723-fcb3848fdd66" testName="IsPositive_False (0)" computerName="EPBYMINW069C" duration="00:00:00.0001788" startTime="2021-06-12T22:01:07.2446984+03:00" endTime="2021-06-12T22:01:07.2456796+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06cf23b0-cfee-46c6-aec2-ae3c30d202a1" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="9a75da4d-534b-4453-afcb-0737d702c059" parentExecutionId="139c7226-ffc2-4c2b-baa4-711616c76bfa" testId="0017af6f-5e15-af5e-4723-fcb3848fdd66" testName="IsPositive_False (-1E-05)" computerName="EPBYMINW069C" duration="00:00:00.0000028" startTime="2021-06-12T22:01:07.2446984+03:00" endTime="2021-06-12T22:01:07.2456796+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a75da4d-534b-4453-afcb-0737d702c059" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="0c805317-f87c-4bc4-bcd1-cbfe428a4ff6" parentExecutionId="139c7226-ffc2-4c2b-baa4-711616c76bfa" testId="0017af6f-5e15-af5e-4723-fcb3848fdd66" testName="IsPositive_False (-999)" computerName="EPBYMINW069C" duration="00:00:00.0000015" startTime="2021-06-12T22:01:07.2446984+03:00" endTime="2021-06-12T22:01:07.2456796+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c805317-f87c-4bc4-bcd1-cbfe428a4ff6" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="42aebc0d-053a-4fdc-bf9f-0d740a832212" parentExecutionId="139c7226-ffc2-4c2b-baa4-711616c76bfa" testId="0017af6f-5e15-af5e-4723-fcb3848fdd66" testName="IsPositive_False (-10000000000000)" computerName="EPBYMINW069C" duration="00:00:00.0000020" startTime="2021-06-12T22:01:07.2446984+03:00" endTime="2021-06-12T22:01:07.2456796+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42aebc0d-053a-4fdc-bf9f-0d740a832212" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="0a7a4be2-3cbd-448c-8245-25776d11ca1f" testId="6dfdccdd-797d-f196-fa81-5e3f3ca8a649" testName="IsNegative_True" computerName="EPBYMINW069C" duration="00:00:00.0001706" startTime="2021-06-12T22:01:07.2446984+03:00" endTime="2021-06-12T22:01:07.2446984+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a7a4be2-3cbd-448c-8245-25776d11ca1f" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="08b2959f-236f-4a6a-95ee-b511d11067a8" parentExecutionId="0a7a4be2-3cbd-448c-8245-25776d11ca1f" testId="6dfdccdd-797d-f196-fa81-5e3f3ca8a649" testName="IsNegative_True (-1)" computerName="EPBYMINW069C" duration="00:00:00.0001246" startTime="2021-06-12T22:01:07.2446984+03:00" endTime="2021-06-12T22:01:07.2446984+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08b2959f-236f-4a6a-95ee-b511d11067a8" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="71ac5c00-177d-4c3b-97de-a63fa2fb189c" parentExecutionId="0a7a4be2-3cbd-448c-8245-25776d11ca1f" testId="6dfdccdd-797d-f196-fa81-5e3f3ca8a649" testName="IsNegative_True (-1E-05)" computerName="EPBYMINW069C" duration="00:00:00.0000028" startTime="2021-06-12T22:01:07.2446984+03:00" endTime="2021-06-12T22:01:07.2446984+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71ac5c00-177d-4c3b-97de-a63fa2fb189c" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="e7657964-df9f-4e91-94f8-8b3198d703a7" parentExecutionId="0a7a4be2-3cbd-448c-8245-25776d11ca1f" testId="6dfdccdd-797d-f196-fa81-5e3f3ca8a649" testName="IsNegative_True (-999)" computerName="EPBYMINW069C" duration="00:00:00.0000016" startTime="2021-06-12T22:01:07.2446984+03:00" endTime="2021-06-12T22:01:07.2446984+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7657964-df9f-4e91-94f8-8b3198d703a7" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="6063d6cb-e069-48e3-bdb1-dff00731c70d" parentExecutionId="0a7a4be2-3cbd-448c-8245-25776d11ca1f" testId="6dfdccdd-797d-f196-fa81-5e3f3ca8a649" testName="IsNegative_True (-10000000000000)" computerName="EPBYMINW069C" duration="00:00:00.0000019" startTime="2021-06-12T22:01:07.2446984+03:00" endTime="2021-06-12T22:01:07.2446984+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6063d6cb-e069-48e3-bdb1-dff00731c70d" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="9848455a-25cf-4b6f-b2fb-691136f32d58" testId="bc29f2cc-d77d-5e70-bf28-0fecc1bf05ef" testName="IsPositive_True" computerName="EPBYMINW069C" duration="00:00:00.0001267" startTime="2021-06-12T22:01:07.2466511+03:00" endTime="2021-06-12T22:01:07.2466511+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9848455a-25cf-4b6f-b2fb-691136f32d58" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="166e6015-da2e-4dea-8eb6-86c8e0c46f28" parentExecutionId="9848455a-25cf-4b6f-b2fb-691136f32d58" testId="bc29f2cc-d77d-5e70-bf28-0fecc1bf05ef" testName="IsPositive_True (10)" computerName="EPBYMINW069C" duration="00:00:00.0000649" startTime="2021-06-12T22:01:07.2466511+03:00" endTime="2021-06-12T22:01:07.2466511+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="166e6015-da2e-4dea-8eb6-86c8e0c46f28" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="649a6cd0-9b82-4f3d-b408-497d433c731e" parentExecutionId="9848455a-25cf-4b6f-b2fb-691136f32d58" testId="bc29f2cc-d77d-5e70-bf28-0fecc1bf05ef" testName="IsPositive_True (1E-05)" computerName="EPBYMINW069C" duration="00:00:00.0000028" startTime="2021-06-12T22:01:07.2466511+03:00" endTime="2021-06-12T22:01:07.2466511+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="649a6cd0-9b82-4f3d-b408-497d433c731e" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="0438d40c-df23-47e6-a50d-6b9de3e610d5" parentExecutionId="9848455a-25cf-4b6f-b2fb-691136f32d58" testId="bc29f2cc-d77d-5e70-bf28-0fecc1bf05ef" testName="IsPositive_True (999)" computerName="EPBYMINW069C" duration="00:00:00.0000016" startTime="2021-06-12T22:01:07.2466511+03:00" endTime="2021-06-12T22:01:07.2466511+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0438d40c-df23-47e6-a50d-6b9de3e610d5" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="0bc32091-bca1-4143-85dd-6acc598c6901" parentExecutionId="9848455a-25cf-4b6f-b2fb-691136f32d58" testId="bc29f2cc-d77d-5e70-bf28-0fecc1bf05ef" testName="IsPositive_True (10000000000000)" computerName="EPBYMINW069C" duration="00:00:00.0000127" startTime="2021-06-12T22:01:07.2466511+03:00" endTime="2021-06-12T22:01:07.2466511+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0bc32091-bca1-4143-85dd-6acc598c6901" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d342860-9210-4343-91fc-8d26e037e4b8" testId="bae3b7fd-a9f8-9d8c-3aef-04fb5e159082" testName="Abs_NegativeScenario" computerName="EPBYMINW069C" duration="00:00:00.1602921" startTime="2021-06-12T22:01:06.5990860+03:00" endTime="2021-06-12T22:01:06.8078671+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d342860-9210-4343-91fc-8d26e037e4b8" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="5b8e73d0-549b-44f7-9832-c1bb31818369" parentExecutionId="4d342860-9210-4343-91fc-8d26e037e4b8" testId="bae3b7fd-a9f8-9d8c-3aef-04fb5e159082" testName="Abs_NegativeScenario (-1000,-1000)" computerName="EPBYMINW069C" duration="00:00:00.0069831" startTime="2021-06-12T22:01:06.5990860+03:00" endTime="2021-06-12T22:01:06.8078671+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b8e73d0-549b-44f7-9832-c1bb31818369" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="3c3bbc63-9412-481c-aa7f-6f1ccca34520" parentExecutionId="4d342860-9210-4343-91fc-8d26e037e4b8" testId="bae3b7fd-a9f8-9d8c-3aef-04fb5e159082" testName="Abs_NegativeScenario (1000,-1000)" computerName="EPBYMINW069C" duration="00:00:00.0000136" startTime="2021-06-12T22:01:06.5990860+03:00" endTime="2021-06-12T22:01:06.8078671+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c3bbc63-9412-481c-aa7f-6f1ccca34520" dataRowInfo="2" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="e165cf45-935e-4a57-bb35-08a2bc7e76ed" testId="c92e0f3e-a648-7581-9ff1-4e82d0f6244a" testName="Abs_StringInput" computerName="EPBYMINW069C" duration="00:00:00.0059045" startTime="2021-06-12T22:01:06.8746892+03:00" endTime="2021-06-12T22:01:06.8806726+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e165cf45-935e-4a57-bb35-08a2bc7e76ed" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="80739481-333d-4c88-b642-75884104a8de" parentExecutionId="e165cf45-935e-4a57-bb35-08a2bc7e76ed" testId="c92e0f3e-a648-7581-9ff1-4e82d0f6244a" testName="Abs_StringInput (-999,999)" computerName="EPBYMINW069C" duration="00:00:00.0001622" startTime="2021-06-12T22:01:06.8746892+03:00" endTime="2021-06-12T22:01:06.8806726+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80739481-333d-4c88-b642-75884104a8de" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="dc4f9706-95e2-4a18-818b-73d8591d4cdf" parentExecutionId="e165cf45-935e-4a57-bb35-08a2bc7e76ed" testId="c92e0f3e-a648-7581-9ff1-4e82d0f6244a" testName="Abs_StringInput (999.99,999.99)" computerName="EPBYMINW069C" duration="00:00:00.0056931" startTime="2021-06-12T22:01:06.8746892+03:00" endTime="2021-06-12T22:01:06.8806726+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc4f9706-95e2-4a18-818b-73d8591d4cdf" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTest_Calc.Tests.AbsTests.Abs_StringInput threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Abs(Object a)&#xD;
+   at MSTest_Calc.Tests.AbsTests.Abs_StringInput(String input, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\AbsTests.cs:line 31&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="7ec0a819-442f-4f0b-af63-fcc180ee3576" testId="82af3e9d-48b7-e4f3-b13a-72bafa68467f" testName="Subtraction" computerName="EPBYMINW069C" duration="00:00:00.0005066" startTime="2021-06-12T22:01:07.2646068+03:00" endTime="2021-06-12T22:01:07.2656004+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ec0a819-442f-4f0b-af63-fcc180ee3576" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="db80530f-8fab-4f93-abbc-195ca0e5dfef" parentExecutionId="7ec0a819-442f-4f0b-af63-fcc180ee3576" testId="82af3e9d-48b7-e4f3-b13a-72bafa68467f" testName="Subtraction (10,5,5)" computerName="EPBYMINW069C" duration="00:00:00.0003822" startTime="2021-06-12T22:01:07.2646068+03:00" endTime="2021-06-12T22:01:07.2656004+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db80530f-8fab-4f93-abbc-195ca0e5dfef" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="a4e37074-69e1-41a2-a85e-fb9e97c73e5a" parentExecutionId="7ec0a819-442f-4f0b-af63-fcc180ee3576" testId="82af3e9d-48b7-e4f3-b13a-72bafa68467f" testName="Subtraction (1,100,-99)" computerName="EPBYMINW069C" duration="00:00:00.0000055" startTime="2021-06-12T22:01:07.2646068+03:00" endTime="2021-06-12T22:01:07.2656004+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4e37074-69e1-41a2-a85e-fb9e97c73e5a" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="a633cbe6-008b-4b7f-9ea6-334fed5d05ed" parentExecutionId="7ec0a819-442f-4f0b-af63-fcc180ee3576" testId="82af3e9d-48b7-e4f3-b13a-72bafa68467f" testName="Subtraction (0,0.0001,-0.0001)" computerName="EPBYMINW069C" duration="00:00:00.0000040" startTime="2021-06-12T22:01:07.2646068+03:00" endTime="2021-06-12T22:01:07.2656004+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a633cbe6-008b-4b7f-9ea6-334fed5d05ed" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="e1546030-4593-45bc-97d3-97fc4e58bac4" parentExecutionId="7ec0a819-442f-4f0b-af63-fcc180ee3576" testId="82af3e9d-48b7-e4f3-b13a-72bafa68467f" testName="Subtraction (100,100,0)" computerName="EPBYMINW069C" duration="00:00:00.0000034" startTime="2021-06-12T22:01:07.2646068+03:00" endTime="2021-06-12T22:01:07.2656004+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1546030-4593-45bc-97d3-97fc4e58bac4" dataRowInfo="4" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="52809e3a-5a8e-4302-8ed4-a136d2de15f0" parentExecutionId="7ec0a819-442f-4f0b-af63-fcc180ee3576" testId="82af3e9d-48b7-e4f3-b13a-72bafa68467f" testName="Subtraction (-1,-5,4)" computerName="EPBYMINW069C" duration="00:00:00.0000031" startTime="2021-06-12T22:01:07.2646068+03:00" endTime="2021-06-12T22:01:07.2656004+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52809e3a-5a8e-4302-8ed4-a136d2de15f0" dataRowInfo="5" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="524c1a1e-be57-4dd2-8d52-e5cd1c0afe00" testId="4556031d-4598-2cbc-1307-2a2db2d18604" testName="Sqrt" computerName="EPBYMINW069C" duration="00:00:00.0016412" startTime="2021-06-12T22:01:07.2626102+03:00" endTime="2021-06-12T22:01:07.2646068+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="524c1a1e-be57-4dd2-8d52-e5cd1c0afe00" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="959d9d36-93fb-4153-ad14-9aaee4bcdf1c" parentExecutionId="524c1a1e-be57-4dd2-8d52-e5cd1c0afe00" testId="4556031d-4598-2cbc-1307-2a2db2d18604" testName="Sqrt (9,3)" computerName="EPBYMINW069C" duration="00:00:00.0002170" startTime="2021-06-12T22:01:07.2626102+03:00" endTime="2021-06-12T22:01:07.2646068+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="959d9d36-93fb-4153-ad14-9aaee4bcdf1c" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="a5a87843-4cc0-402f-a01e-6108ff85aaf3" parentExecutionId="524c1a1e-be57-4dd2-8d52-e5cd1c0afe00" testId="4556031d-4598-2cbc-1307-2a2db2d18604" testName="Sqrt (6.754801,2.599)" computerName="EPBYMINW069C" duration="00:00:00.0013531" startTime="2021-06-12T22:01:07.2626102+03:00" endTime="2021-06-12T22:01:07.2646068+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5a87843-4cc0-402f-a01e-6108ff85aaf3" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;2.599&gt;. Actual:&lt;2.64575131106459&gt;. </Message>
+              <StackTrace>   at MSTest_Calc.Tests.SqrtTests.Sqrt(Double input, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\SqrtTests.cs:line 14&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="4fcf406c-d7f9-4441-8493-62b2274a2d5b" parentExecutionId="524c1a1e-be57-4dd2-8d52-e5cd1c0afe00" testId="4556031d-4598-2cbc-1307-2a2db2d18604" testName="Sqrt (0,0)" computerName="EPBYMINW069C" duration="00:00:00.0000082" startTime="2021-06-12T22:01:07.2626102+03:00" endTime="2021-06-12T22:01:07.2646068+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fcf406c-d7f9-4441-8493-62b2274a2d5b" dataRowInfo="3" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="2fff17c0-862e-4752-be94-752abda7d644" testId="7b75a0d8-2fc7-3704-75ee-1771984f67d9" testName="Cosine" computerName="EPBYMINW069C" duration="00:00:00.0003114" startTime="2021-06-12T22:01:06.9205232+03:00" endTime="2021-06-12T22:01:06.9215216+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fff17c0-862e-4752-be94-752abda7d644" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="0d751abc-ac50-4f27-a853-fb5feb95990e" parentExecutionId="2fff17c0-862e-4752-be94-752abda7d644" testId="7b75a0d8-2fc7-3704-75ee-1771984f67d9" testName="Cosine (30,0.154251449887584)" computerName="EPBYMINW069C" duration="00:00:00.0002677" startTime="2021-06-12T22:01:06.9205232+03:00" endTime="2021-06-12T22:01:06.9215216+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d751abc-ac50-4f27-a853-fb5feb95990e" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="9534b735-858d-4796-968b-9d37f10b0ff8" parentExecutionId="2fff17c0-862e-4752-be94-752abda7d644" testId="7b75a0d8-2fc7-3704-75ee-1771984f67d9" testName="Cosine (3.14159265358979,-1)" computerName="EPBYMINW069C" duration="00:00:00.0000076" startTime="2021-06-12T22:01:06.9205232+03:00" endTime="2021-06-12T22:01:06.9215216+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9534b735-858d-4796-968b-9d37f10b0ff8" dataRowInfo="2" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="6be3cee7-77ac-4964-b94a-99124b1056fe" testId="b813ce6e-7006-26e6-d40a-6af970f2ee56" testName="Division_DataDrivenXML" computerName="EPBYMINW069C" duration="00:00:00.3170758" startTime="2021-06-12T22:01:06.9225190+03:00" endTime="2021-06-12T22:01:07.2396705+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6be3cee7-77ac-4964-b94a-99124b1056fe" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="b3416b4c-92ec-45e5-ac60-c77a04fe1d08" parentExecutionId="6be3cee7-77ac-4964-b94a-99124b1056fe" testId="b813ce6e-7006-26e6-d40a-6af970f2ee56" testName="Division_DataDrivenXML (Data Row 0)" computerName="EPBYMINW069C" duration="00:00:00.0010134" startTime="2021-06-12T22:01:06.9225190+03:00" endTime="2021-06-12T22:01:07.2396705+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3416b4c-92ec-45e5-ac60-c77a04fe1d08" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="14d073f5-d6dc-4deb-a31f-1dec1783b206" parentExecutionId="6be3cee7-77ac-4964-b94a-99124b1056fe" testId="b813ce6e-7006-26e6-d40a-6af970f2ee56" testName="Division_DataDrivenXML (Data Row 1)" computerName="EPBYMINW069C" duration="00:00:00.0000082" startTime="2021-06-12T22:01:06.9225190+03:00" endTime="2021-06-12T22:01:07.2396705+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14d073f5-d6dc-4deb-a31f-1dec1783b206" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="a710cedd-c3b8-435e-9d5c-b1cceb71e315" parentExecutionId="6be3cee7-77ac-4964-b94a-99124b1056fe" testId="b813ce6e-7006-26e6-d40a-6af970f2ee56" testName="Division_DataDrivenXML (Data Row 2)" computerName="EPBYMINW069C" duration="00:00:00.0000028" startTime="2021-06-12T22:01:06.9225190+03:00" endTime="2021-06-12T22:01:07.2396705+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a710cedd-c3b8-435e-9d5c-b1cceb71e315" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="58ab0c67-7960-4805-8e38-3d19b341634b" parentExecutionId="6be3cee7-77ac-4964-b94a-99124b1056fe" testId="b813ce6e-7006-26e6-d40a-6af970f2ee56" testName="Division_DataDrivenXML (Data Row 3)" computerName="EPBYMINW069C" duration="00:00:00.0000066" startTime="2021-06-12T22:01:06.9225190+03:00" endTime="2021-06-12T22:01:07.2396705+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58ab0c67-7960-4805-8e38-3d19b341634b" dataRowInfo="4" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="920aca8e-9d66-4e77-8707-d110e425ba2e" parentExecutionId="6be3cee7-77ac-4964-b94a-99124b1056fe" testId="b813ce6e-7006-26e6-d40a-6af970f2ee56" testName="Division_DataDrivenXML (Data Row 4)" computerName="EPBYMINW069C" duration="00:00:00.0000026" startTime="2021-06-12T22:01:06.9225190+03:00" endTime="2021-06-12T22:01:07.2396705+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="920aca8e-9d66-4e77-8707-d110e425ba2e" dataRowInfo="5" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="fa787648-6612-4d8d-9d15-2a62e4e731de" testId="f46a2ff4-e43f-94d7-f9a3-d4593fe6e46d" testName="Multiplication" computerName="EPBYMINW069C" duration="00:00:00.0004414" startTime="2021-06-12T22:01:07.2476769+03:00" endTime="2021-06-12T22:01:07.2486490+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa787648-6612-4d8d-9d15-2a62e4e731de" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="2e396bdb-a975-4edc-97ee-dc7044acb048" parentExecutionId="fa787648-6612-4d8d-9d15-2a62e4e731de" testId="f46a2ff4-e43f-94d7-f9a3-d4593fe6e46d" testName="Multiplication (3,3,9)" computerName="EPBYMINW069C" duration="00:00:00.0003345" startTime="2021-06-12T22:01:07.2476769+03:00" endTime="2021-06-12T22:01:07.2486490+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e396bdb-a975-4edc-97ee-dc7044acb048" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="b989841e-29a8-4a6f-9e1e-6f305c0cb885" parentExecutionId="fa787648-6612-4d8d-9d15-2a62e4e731de" testId="f46a2ff4-e43f-94d7-f9a3-d4593fe6e46d" testName="Multiplication (3,1,3)" computerName="EPBYMINW069C" duration="00:00:00.0000043" startTime="2021-06-12T22:01:07.2476769+03:00" endTime="2021-06-12T22:01:07.2486490+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b989841e-29a8-4a6f-9e1e-6f305c0cb885" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="f9a149c8-a833-49a6-9cdf-6aead9bd0e92" parentExecutionId="fa787648-6612-4d8d-9d15-2a62e4e731de" testId="f46a2ff4-e43f-94d7-f9a3-d4593fe6e46d" testName="Multiplication (0,5,0)" computerName="EPBYMINW069C" duration="00:00:00.0000179" startTime="2021-06-12T22:01:07.2476769+03:00" endTime="2021-06-12T22:01:07.2486490+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9a149c8-a833-49a6-9cdf-6aead9bd0e92" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="c8809322-2e2a-4bee-afd2-2e33db42e75a" parentExecutionId="fa787648-6612-4d8d-9d15-2a62e4e731de" testId="f46a2ff4-e43f-94d7-f9a3-d4593fe6e46d" testName="Multiplication (-3,5,-15)" computerName="EPBYMINW069C" duration="00:00:00.0000020" startTime="2021-06-12T22:01:07.2476769+03:00" endTime="2021-06-12T22:01:07.2486490+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8809322-2e2a-4bee-afd2-2e33db42e75a" dataRowInfo="4" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="2ff846c3-bf96-419d-8db5-cf21c0828421" parentExecutionId="fa787648-6612-4d8d-9d15-2a62e4e731de" testId="f46a2ff4-e43f-94d7-f9a3-d4593fe6e46d" testName="Multiplication (2.55,3.33,8.4915)" computerName="EPBYMINW069C" duration="00:00:00.0000018" startTime="2021-06-12T22:01:07.2476769+03:00" endTime="2021-06-12T22:01:07.2486490+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ff846c3-bf96-419d-8db5-cf21c0828421" dataRowInfo="5" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="28bf276d-1b63-46c0-b87a-c21271e961ea" testId="60c42eab-eb24-7a40-eca0-2211e61b90dc" testName="Pow" computerName="EPBYMINW069C" duration="00:00:00.0068781" startTime="2021-06-12T22:01:07.2496434+03:00" endTime="2021-06-12T22:01:07.2566244+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28bf276d-1b63-46c0-b87a-c21271e961ea" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="679daa3a-cf8b-4a9c-b366-b13d081da71e" parentExecutionId="28bf276d-1b63-46c0-b87a-c21271e961ea" testId="60c42eab-eb24-7a40-eca0-2211e61b90dc" testName="Pow (3,2,9)" computerName="EPBYMINW069C" duration="00:00:00.0013702" startTime="2021-06-12T22:01:07.2496434+03:00" endTime="2021-06-12T22:01:07.2566244+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="679daa3a-cf8b-4a9c-b366-b13d081da71e" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="b801d43c-c9a3-45e4-aae0-40308e7a74ca" parentExecutionId="28bf276d-1b63-46c0-b87a-c21271e961ea" testId="60c42eab-eb24-7a40-eca0-2211e61b90dc" testName="Pow (3,1,3)" computerName="EPBYMINW069C" duration="00:00:00.0009502" startTime="2021-06-12T22:01:07.2496434+03:00" endTime="2021-06-12T22:01:07.2566244+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b801d43c-c9a3-45e4-aae0-40308e7a74ca" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="8374bdb6-60f6-401b-9c8d-77af37f637c0" parentExecutionId="28bf276d-1b63-46c0-b87a-c21271e961ea" testId="60c42eab-eb24-7a40-eca0-2211e61b90dc" testName="Pow (0,5,0)" computerName="EPBYMINW069C" duration="00:00:00.0015053" startTime="2021-06-12T22:01:07.2496434+03:00" endTime="2021-06-12T22:01:07.2566244+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8374bdb6-60f6-401b-9c8d-77af37f637c0" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="3a20d448-3b31-48a1-9e09-d6b4e45d75b6" parentExecutionId="28bf276d-1b63-46c0-b87a-c21271e961ea" testId="60c42eab-eb24-7a40-eca0-2211e61b90dc" testName="Pow (-2,2,4)" computerName="EPBYMINW069C" duration="00:00:00.0007394" startTime="2021-06-12T22:01:07.2496434+03:00" endTime="2021-06-12T22:01:07.2566244+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a20d448-3b31-48a1-9e09-d6b4e45d75b6" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="5b903fbb-43cd-49de-860c-c8c3f9e74982" parentExecutionId="28bf276d-1b63-46c0-b87a-c21271e961ea" testId="60c42eab-eb24-7a40-eca0-2211e61b90dc" testName="Pow (-3,3,-27)" computerName="EPBYMINW069C" duration="00:00:00.0006907" startTime="2021-06-12T22:01:07.2496434+03:00" endTime="2021-06-12T22:01:07.2566244+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b903fbb-43cd-49de-860c-c8c3f9e74982" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="1fcb353d-94ec-494a-8b37-648c957323a2" parentExecutionId="28bf276d-1b63-46c0-b87a-c21271e961ea" testId="60c42eab-eb24-7a40-eca0-2211e61b90dc" testName="Pow (2.55,3,16.581375)" computerName="EPBYMINW069C" duration="00:00:00.0006975" startTime="2021-06-12T22:01:07.2496434+03:00" endTime="2021-06-12T22:01:07.2566244+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fcb353d-94ec-494a-8b37-648c957323a2" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="46ec3b64-97c7-4506-a427-9c14d7af8419" parentExecutionId="28bf276d-1b63-46c0-b87a-c21271e961ea" testId="60c42eab-eb24-7a40-eca0-2211e61b90dc" testName="Pow (32,8,1048576)" computerName="EPBYMINW069C" duration="00:00:00.0007601" startTime="2021-06-12T22:01:07.2496434+03:00" endTime="2021-06-12T22:01:07.2566244+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46ec3b64-97c7-4506-a427-9c14d7af8419" dataRowInfo="7" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="79e343c0-50fd-46ea-aa04-d9b3b6f74b33" testId="a4a5d0ce-1b48-66aa-245b-96e6604eb4c2" testName="IsNegative_False" computerName="EPBYMINW069C" duration="00:00:00.0011875" startTime="2021-06-12T22:01:07.2416917+03:00" endTime="2021-06-12T22:01:07.2437012+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79e343c0-50fd-46ea-aa04-d9b3b6f74b33" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="2e96a661-606b-4b9a-8ccd-c77641851d21" parentExecutionId="79e343c0-50fd-46ea-aa04-d9b3b6f74b33" testId="a4a5d0ce-1b48-66aa-245b-96e6604eb4c2" testName="IsNegative_False (0)" computerName="EPBYMINW069C" duration="00:00:00.0011177" startTime="2021-06-12T22:01:07.2416917+03:00" endTime="2021-06-12T22:01:07.2437012+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e96a661-606b-4b9a-8ccd-c77641851d21" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.IsFalse failed. </Message>
+              <StackTrace>   at MSTest_Calc.Tests.IsNegativeTests.IsNegative_False(Object input) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\IsNegativeTests.cs:line 25&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="285de6d9-9440-4f07-815c-743a96201ed6" parentExecutionId="79e343c0-50fd-46ea-aa04-d9b3b6f74b33" testId="a4a5d0ce-1b48-66aa-245b-96e6604eb4c2" testName="IsNegative_False (1E-05)" computerName="EPBYMINW069C" duration="00:00:00.0000033" startTime="2021-06-12T22:01:07.2416917+03:00" endTime="2021-06-12T22:01:07.2437012+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="285de6d9-9440-4f07-815c-743a96201ed6" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="875f8c19-c994-48cf-bbc6-9e2346e2eb18" parentExecutionId="79e343c0-50fd-46ea-aa04-d9b3b6f74b33" testId="a4a5d0ce-1b48-66aa-245b-96e6604eb4c2" testName="IsNegative_False (999)" computerName="EPBYMINW069C" duration="00:00:00.0000053" startTime="2021-06-12T22:01:07.2416917+03:00" endTime="2021-06-12T22:01:07.2437012+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="875f8c19-c994-48cf-bbc6-9e2346e2eb18" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="81a2da2c-3cd8-4224-81ab-6a9c98416b8a" parentExecutionId="79e343c0-50fd-46ea-aa04-d9b3b6f74b33" testId="a4a5d0ce-1b48-66aa-245b-96e6604eb4c2" testName="IsNegative_False (10000000000000)" computerName="EPBYMINW069C" duration="00:00:00.0000023" startTime="2021-06-12T22:01:07.2416917+03:00" endTime="2021-06-12T22:01:07.2437012+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81a2da2c-3cd8-4224-81ab-6a9c98416b8a" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="8d00fd47-f77f-4f48-b72e-ff54161ec68e" testId="03ad944c-cc58-649f-eff2-22c3b459bc4d" testName="Abs_PossitiveScenario" computerName="EPBYMINW069C" duration="00:00:00.0586992" startTime="2021-06-12T22:01:06.8148497+03:00" endTime="2021-06-12T22:01:06.8746892+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d00fd47-f77f-4f48-b72e-ff54161ec68e" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="a478b527-7fda-414e-a64c-e83d1983ed02" parentExecutionId="8d00fd47-f77f-4f48-b72e-ff54161ec68e" testId="03ad944c-cc58-649f-eff2-22c3b459bc4d" testName="Abs_PossitiveScenario (-5,5)" computerName="EPBYMINW069C" duration="00:00:00.0006364" startTime="2021-06-12T22:01:06.8148497+03:00" endTime="2021-06-12T22:01:06.8746892+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a478b527-7fda-414e-a64c-e83d1983ed02" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="ac0781da-ec1d-4b09-bd4f-1a6b35e4b6b7" parentExecutionId="8d00fd47-f77f-4f48-b72e-ff54161ec68e" testId="03ad944c-cc58-649f-eff2-22c3b459bc4d" testName="Abs_PossitiveScenario (5,5)" computerName="EPBYMINW069C" duration="00:00:00.0000078" startTime="2021-06-12T22:01:06.8148497+03:00" endTime="2021-06-12T22:01:06.8746892+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac0781da-ec1d-4b09-bd4f-1a6b35e4b6b7" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="02ed4b5d-a730-4cb6-8e01-1aa636400ecb" parentExecutionId="8d00fd47-f77f-4f48-b72e-ff54161ec68e" testId="03ad944c-cc58-649f-eff2-22c3b459bc4d" testName="Abs_PossitiveScenario (0,0)" computerName="EPBYMINW069C" duration="00:00:00.0000022" startTime="2021-06-12T22:01:06.8148497+03:00" endTime="2021-06-12T22:01:06.8746892+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02ed4b5d-a730-4cb6-8e01-1aa636400ecb" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="7b0d6162-bced-4f1f-adb7-3cb56bac943e" parentExecutionId="8d00fd47-f77f-4f48-b72e-ff54161ec68e" testId="03ad944c-cc58-649f-eff2-22c3b459bc4d" testName="Abs_PossitiveScenario (-5.87,5.87)" computerName="EPBYMINW069C" duration="00:00:00.0579888" startTime="2021-06-12T22:01:06.8148497+03:00" endTime="2021-06-12T22:01:06.8746892+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b0d6162-bced-4f1f-adb7-3cb56bac943e" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;5.87&gt;. Actual:&lt;6&gt;. </Message>
+              <StackTrace>   at MSTest_Calc.Tests.AbsTests.Abs_PossitiveScenario(Double input, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\AbsTests.cs:line 15&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="af5181b7-4202-4cea-bec5-6b8686a1e94c" testId="82f4e3c7-5503-657f-9ebe-3235783310cf" testName="Addition_DoubleInput" computerName="EPBYMINW069C" duration="00:00:00.0014180" startTime="2021-06-12T22:01:06.9185287+03:00" endTime="2021-06-12T22:01:06.9205232+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af5181b7-4202-4cea-bec5-6b8686a1e94c" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="aa0e4b19-e38b-4654-bc4f-34baa14a94f5" parentExecutionId="af5181b7-4202-4cea-bec5-6b8686a1e94c" testId="82f4e3c7-5503-657f-9ebe-3235783310cf" testName="Addition_DoubleInput (10,5,15)" computerName="EPBYMINW069C" duration="00:00:00.0002232" startTime="2021-06-12T22:01:06.9185287+03:00" endTime="2021-06-12T22:01:06.9205232+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa0e4b19-e38b-4654-bc4f-34baa14a94f5" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="f095d0e1-84e4-4d35-ad36-cf707b34f25b" parentExecutionId="af5181b7-4202-4cea-bec5-6b8686a1e94c" testId="82f4e3c7-5503-657f-9ebe-3235783310cf" testName="Addition_DoubleInput (0,-0.0001,-0.0001)" computerName="EPBYMINW069C" duration="00:00:00.0000040" startTime="2021-06-12T22:01:06.9185287+03:00" endTime="2021-06-12T22:01:06.9205232+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f095d0e1-84e4-4d35-ad36-cf707b34f25b" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="e2e43b3d-5765-4b7f-bc8f-0038e7cc3004" parentExecutionId="af5181b7-4202-4cea-bec5-6b8686a1e94c" testId="82f4e3c7-5503-657f-9ebe-3235783310cf" testName="Addition_DoubleInput (-1,-5,-6)" computerName="EPBYMINW069C" duration="00:00:00.0000025" startTime="2021-06-12T22:01:06.9185287+03:00" endTime="2021-06-12T22:01:06.9205232+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2e43b3d-5765-4b7f-bc8f-0038e7cc3004" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="0b3cf8b4-d13b-4527-8e62-b074e862ee4b" parentExecutionId="af5181b7-4202-4cea-bec5-6b8686a1e94c" testId="82f4e3c7-5503-657f-9ebe-3235783310cf" testName="Addition_DoubleInput (1.99,0.001,1.991)" computerName="EPBYMINW069C" duration="00:00:00.0011100" startTime="2021-06-12T22:01:06.9185287+03:00" endTime="2021-06-12T22:01:06.9205232+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b3cf8b4-d13b-4527-8e62-b074e862ee4b" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;1.991&gt;. Actual:&lt;1.991&gt;. </Message>
+              <StackTrace>   at MSTest_Calc.Tests.AddTests.Addition_DoubleInput(Double input1, Double input2, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\AddTests.cs:line 15&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="76bf4e13-5615-41a9-b71c-eac1eb0cc54c" testId="d4e42903-a347-408e-a33b-1165626b5c81" testName="Sinus" computerName="EPBYMINW069C" duration="00:00:00.0023973" startTime="2021-06-12T22:01:07.2586197+03:00" endTime="2021-06-12T22:01:07.2616108+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76bf4e13-5615-41a9-b71c-eac1eb0cc54c" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="c91e0eee-2f6f-4016-ad75-76f7566fabdd" parentExecutionId="76bf4e13-5615-41a9-b71c-eac1eb0cc54c" testId="d4e42903-a347-408e-a33b-1165626b5c81" testName="Sinus (30,-0.988031624092862)" computerName="EPBYMINW069C" duration="00:00:00.0011823" startTime="2021-06-12T22:01:07.2586197+03:00" endTime="2021-06-12T22:01:07.2616108+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c91e0eee-2f6f-4016-ad75-76f7566fabdd" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="074a70fb-12e3-47ce-b240-60afa2db2a6d" parentExecutionId="76bf4e13-5615-41a9-b71c-eac1eb0cc54c" testId="d4e42903-a347-408e-a33b-1165626b5c81" testName="Sinus (3.14159265358979,0)" computerName="EPBYMINW069C" duration="00:00:00.0011305" startTime="2021-06-12T22:01:07.2586197+03:00" endTime="2021-06-12T22:01:07.2616108+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="074a70fb-12e3-47ce-b240-60afa2db2a6d" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;0 (System.Int32)&gt;. Actual:&lt;1.22460635382238E-16 (System.Double)&gt;. </Message>
+              <StackTrace>   at MSTest_Calc.Tests.SinTests.Sinus(Object input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\SinTests.cs:line 13&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Division_DataDrivenXML" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="b813ce6e-7006-26e6-d40a-6af970f2ee56">
+      <Execution id="6be3cee7-77ac-4964-b94a-99124b1056fe" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.DivideTests" name="Division_DataDrivenXML" />
+    </UnitTest>
+    <UnitTest name="Sinus" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="d4e42903-a347-408e-a33b-1165626b5c81">
+      <Execution id="76bf4e13-5615-41a9-b71c-eac1eb0cc54c" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.SinTests" name="Sinus" />
+    </UnitTest>
+    <UnitTest name="Subtraction" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="82af3e9d-48b7-e4f3-b13a-72bafa68467f">
+      <Execution id="7ec0a819-442f-4f0b-af63-fcc180ee3576" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.SubTests" name="Subtraction" />
+    </UnitTest>
+    <UnitTest name="Sqrt" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="4556031d-4598-2cbc-1307-2a2db2d18604">
+      <Execution id="524c1a1e-be57-4dd2-8d52-e5cd1c0afe00" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.SqrtTests" name="Sqrt" />
+    </UnitTest>
+    <UnitTest name="Multiplication" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="f46a2ff4-e43f-94d7-f9a3-d4593fe6e46d">
+      <Execution id="fa787648-6612-4d8d-9d15-2a62e4e731de" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.MultiplyTests" name="Multiplication" />
+    </UnitTest>
+    <UnitTest name="Cosine" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="7b75a0d8-2fc7-3704-75ee-1771984f67d9">
+      <Execution id="2fff17c0-862e-4752-be94-752abda7d644" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.CosTests" name="Cosine" />
+    </UnitTest>
+    <UnitTest name="IsNegative_True" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="6dfdccdd-797d-f196-fa81-5e3f3ca8a649">
+      <Execution id="0a7a4be2-3cbd-448c-8245-25776d11ca1f" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.IsNegativeTests" name="IsNegative_True" />
+    </UnitTest>
+    <UnitTest name="IsPositive_False" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="0017af6f-5e15-af5e-4723-fcb3848fdd66">
+      <Execution id="139c7226-ffc2-4c2b-baa4-711616c76bfa" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.IsPositiveTests" name="IsPositive_False" />
+    </UnitTest>
+    <UnitTest name="Abs_PossitiveScenario" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="03ad944c-cc58-649f-eff2-22c3b459bc4d">
+      <Execution id="8d00fd47-f77f-4f48-b72e-ff54161ec68e" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.AbsTests" name="Abs_PossitiveScenario" />
+    </UnitTest>
+    <UnitTest name="Addition_DoubleInput" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="82f4e3c7-5503-657f-9ebe-3235783310cf">
+      <Execution id="af5181b7-4202-4cea-bec5-6b8686a1e94c" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.AddTests" name="Addition_DoubleInput" />
+    </UnitTest>
+    <UnitTest name="Pow" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="60c42eab-eb24-7a40-eca0-2211e61b90dc">
+      <Execution id="28bf276d-1b63-46c0-b87a-c21271e961ea" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.PowTests" name="Pow" />
+    </UnitTest>
+    <UnitTest name="IsNegative_False" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="a4a5d0ce-1b48-66aa-245b-96e6604eb4c2">
+      <Execution id="79e343c0-50fd-46ea-aa04-d9b3b6f74b33" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.IsNegativeTests" name="IsNegative_False" />
+    </UnitTest>
+    <UnitTest name="IsPositive_True" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="bc29f2cc-d77d-5e70-bf28-0fecc1bf05ef">
+      <Execution id="9848455a-25cf-4b6f-b2fb-691136f32d58" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.IsPositiveTests" name="IsPositive_True" />
+    </UnitTest>
+    <UnitTest name="Abs_StringInput" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="c92e0f3e-a648-7581-9ff1-4e82d0f6244a">
+      <Execution id="e165cf45-935e-4a57-bb35-08a2bc7e76ed" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.AbsTests" name="Abs_StringInput" />
+    </UnitTest>
+    <UnitTest name="Abs_NegativeScenario" storage="c:\users\dzianis_dukhnou\source\repos\m5_dzianis_dukhnou\m5_mstest_dzianis_dukhnou\bin\debug\mstest.dll" id="bae3b7fd-a9f8-9d8c-3aef-04fb5e159082">
+      <Execution id="4d342860-9210-4343-91fc-8d26e037e4b8" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTest_Calc.Tests.AbsTests" name="Abs_NegativeScenario" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="0017af6f-5e15-af5e-4723-fcb3848fdd66" executionId="139c7226-ffc2-4c2b-baa4-711616c76bfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6dfdccdd-797d-f196-fa81-5e3f3ca8a649" executionId="0a7a4be2-3cbd-448c-8245-25776d11ca1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc29f2cc-d77d-5e70-bf28-0fecc1bf05ef" executionId="9848455a-25cf-4b6f-b2fb-691136f32d58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bae3b7fd-a9f8-9d8c-3aef-04fb5e159082" executionId="4d342860-9210-4343-91fc-8d26e037e4b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c92e0f3e-a648-7581-9ff1-4e82d0f6244a" executionId="e165cf45-935e-4a57-bb35-08a2bc7e76ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82af3e9d-48b7-e4f3-b13a-72bafa68467f" executionId="7ec0a819-442f-4f0b-af63-fcc180ee3576" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4556031d-4598-2cbc-1307-2a2db2d18604" executionId="524c1a1e-be57-4dd2-8d52-e5cd1c0afe00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b75a0d8-2fc7-3704-75ee-1771984f67d9" executionId="2fff17c0-862e-4752-be94-752abda7d644" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b813ce6e-7006-26e6-d40a-6af970f2ee56" executionId="6be3cee7-77ac-4964-b94a-99124b1056fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f46a2ff4-e43f-94d7-f9a3-d4593fe6e46d" executionId="fa787648-6612-4d8d-9d15-2a62e4e731de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60c42eab-eb24-7a40-eca0-2211e61b90dc" executionId="28bf276d-1b63-46c0-b87a-c21271e961ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4a5d0ce-1b48-66aa-245b-96e6604eb4c2" executionId="79e343c0-50fd-46ea-aa04-d9b3b6f74b33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03ad944c-cc58-649f-eff2-22c3b459bc4d" executionId="8d00fd47-f77f-4f48-b72e-ff54161ec68e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82f4e3c7-5503-657f-9ebe-3235783310cf" executionId="af5181b7-4202-4cea-bec5-6b8686a1e94c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4e42903-a347-408e-a33b-1165626b5c81" executionId="76bf4e13-5615-41a9-b71c-eac1eb0cc54c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="72" executed="72" passed="52" failed="20" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

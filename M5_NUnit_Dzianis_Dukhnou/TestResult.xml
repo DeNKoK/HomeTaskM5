@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="70" result="Failed" total="70" passed="53" failed="17" inconclusive="0" skipped="0" asserts="61" engine-version="3.12.0.0" clr-version="4.0.30319.42000" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:59Z" duration="0.983018">
+  <command-line><![CDATA[nunit3-console  C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\bin\Debug\net472\M5_NUnit_Dzianis_Dukhnou.dll -work=source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\]]></command-line>
+  <test-suite type="Assembly" id="1-1098" name="M5_NUnit_Dzianis_Dukhnou.dll" fullname="C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\bin\Debug\net472\M5_NUnit_Dzianis_Dukhnou.dll" runstate="Runnable" testcasecount="70" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.223667" total="70" passed="53" failed="17" warnings="0" inconclusive="0" skipped="0" asserts="61">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.18363.0" platform="Win32NT" cwd="C:\Users\Dzianis_Dukhnou" machine-name="EPBYMINW069C" user="Dzianis_Dukhnou" user-domain="MINSK" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="LevelOfParallelism" value="6" />
+      <property name="_PID" value="14364" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="1-1099" name="NUnit_Calc" fullname="NUnit_Calc" runstate="Runnable" testcasecount="70" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.207723" total="70" passed="53" failed="17" warnings="0" inconclusive="0" skipped="0" asserts="61">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1-1100" name="Tests" fullname="NUnit_Calc.Tests" runstate="Runnable" testcasecount="70" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.207297" total="70" passed="53" failed="17" warnings="0" inconclusive="0" skipped="0" asserts="61">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="1-1060" name="MultiplyTests" fullname="NUnit_Calc.Tests.MultiplyTests" classname="NUnit_Calc.Tests.MultiplyTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.030011" total="7" passed="7" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="7">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-suite type="ParameterizedMethod" id="1-1068" name="Multiplication" fullname="NUnit_Calc.Tests.MultiplyTests.Multiplication" classname="NUnit_Calc.Tests.MultiplyTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.027373" total="7" passed="7" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="7">
+            <test-case id="1-1061" name="Multiplication(3,3,9)" fullname="NUnit_Calc.Tests.MultiplyTests.Multiplication(3,3,9)" methodname="Multiplication" classname="NUnit_Calc.Tests.MultiplyTests" runstate="Runnable" seed="2010868173" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.007107" asserts="1" />
+            <test-case id="1-1063" name="Multiplication(0,5,0)" fullname="NUnit_Calc.Tests.MultiplyTests.Multiplication(0,5,0)" methodname="Multiplication" classname="NUnit_Calc.Tests.MultiplyTests" runstate="Runnable" seed="2027399083" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000092" asserts="1" />
+            <test-case id="1-1064" name="Multiplication(-3,5,-15)" fullname="NUnit_Calc.Tests.MultiplyTests.Multiplication(-3,5,-15)" methodname="Multiplication" classname="NUnit_Calc.Tests.MultiplyTests" runstate="Runnable" seed="1796063909" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000062" asserts="1" />
+            <test-case id="1-1065" name="Multiplication(2.55d,3.33d,8.4915d)" fullname="NUnit_Calc.Tests.MultiplyTests.Multiplication(2.55d,3.33d,8.4915d)" methodname="Multiplication" classname="NUnit_Calc.Tests.MultiplyTests" runstate="Runnable" seed="1952642990" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000054" asserts="1" />
+            <test-case id="1-1066" name="Multiplication(&quot;32&quot;,&quot;8&quot;,&quot;256&quot;)" fullname="NUnit_Calc.Tests.MultiplyTests.Multiplication(&quot;32&quot;,&quot;8&quot;,&quot;256&quot;)" methodname="Multiplication" classname="NUnit_Calc.Tests.MultiplyTests" runstate="Runnable" seed="512030274" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000064" asserts="1" />
+            <test-case id="1-1067" name="Multiplication(&quot;32.33&quot;,&quot;8&quot;,258.64d)" fullname="NUnit_Calc.Tests.MultiplyTests.Multiplication(&quot;32.33&quot;,&quot;8&quot;,258.64d)" methodname="Multiplication" classname="NUnit_Calc.Tests.MultiplyTests" runstate="Runnable" seed="922626237" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000083" asserts="1" />
+            <test-case id="1-1062" name="Multiplication(3,1,3)" fullname="NUnit_Calc.Tests.MultiplyTests.Multiplication(3,1,3)" methodname="Multiplication" classname="NUnit_Calc.Tests.MultiplyTests" runstate="Runnable" seed="1912127574" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.003571" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1069" name="PowTests" fullname="NUnit_Calc.Tests.PowTests" classname="NUnit_Calc.Tests.PowTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.162856" total="7" passed="0" failed="7" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1077" name="Pow" fullname="NUnit_Calc.Tests.PowTests.Pow" classname="NUnit_Calc.Tests.PowTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.162689" total="7" passed="0" failed="7" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1072" name="Pow(0,5,0)" fullname="NUnit_Calc.Tests.PowTests.Pow(0,5,0)" methodname="Pow" classname="NUnit_Calc.Tests.PowTests" runstate="Runnable" seed="1501658680" result="Failed" label="Error" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.132445" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnit_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\PowTests.cs:line 18]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1070" name="Pow(3,2,9)" fullname="NUnit_Calc.Tests.PowTests.Pow(3,2,9)" methodname="Pow" classname="NUnit_Calc.Tests.PowTests" runstate="Runnable" seed="1291795030" result="Failed" label="Error" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.134308" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnit_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\PowTests.cs:line 18]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1073" name="Pow(-2,2,4)" fullname="NUnit_Calc.Tests.PowTests.Pow(-2,2,4)" methodname="Pow" classname="NUnit_Calc.Tests.PowTests" runstate="Runnable" seed="369744629" result="Failed" label="Error" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.131384" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnit_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\PowTests.cs:line 18]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1071" name="Pow(3,1,3)" fullname="NUnit_Calc.Tests.PowTests.Pow(3,1,3)" methodname="Pow" classname="NUnit_Calc.Tests.PowTests" runstate="Runnable" seed="1972885408" result="Failed" label="Error" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.134233" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnit_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\PowTests.cs:line 18]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1074" name="Pow(-3,3,-27)" fullname="NUnit_Calc.Tests.PowTests.Pow(-3,3,-27)" methodname="Pow" classname="NUnit_Calc.Tests.PowTests" runstate="Runnable" seed="382732240" result="Failed" label="Error" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.001011" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnit_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\PowTests.cs:line 18]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1076" name="Pow(&quot;32&quot;,&quot;8&quot;,&quot;1048576&quot;)" fullname="NUnit_Calc.Tests.PowTests.Pow(&quot;32&quot;,&quot;8&quot;,&quot;1048576&quot;)" methodname="Pow" classname="NUnit_Calc.Tests.PowTests" runstate="Runnable" seed="1128579557" result="Failed" label="Error" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.001231" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnit_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\PowTests.cs:line 18]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1075" name="Pow(2.55d,3,16.581375d)" fullname="NUnit_Calc.Tests.PowTests.Pow(2.55d,3,16.581375d)" methodname="Pow" classname="NUnit_Calc.Tests.PowTests" runstate="Runnable" seed="155528348" result="Failed" label="Error" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.001424" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnit_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\PowTests.cs:line 18]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1025" name="DevideTests" fullname="NUnit_Calc.Tests.DevideTests" classname="NUnit_Calc.Tests.DevideTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.172988" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-suite type="ParameterizedMethod" id="1-1033" name="Division" fullname="NUnit_Calc.Tests.DevideTests.Division" classname="NUnit_Calc.Tests.DevideTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.163434" total="7" passed="7" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="7">
+            <test-case id="1-1026" name="Division(3,3,1)" fullname="NUnit_Calc.Tests.DevideTests.Division(3,3,1)" methodname="Division" classname="NUnit_Calc.Tests.DevideTests" runstate="Runnable" seed="46247054" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000332" asserts="1" />
+            <test-case id="1-1027" name="Division(3,1,3)" fullname="NUnit_Calc.Tests.DevideTests.Division(3,1,3)" methodname="Division" classname="NUnit_Calc.Tests.DevideTests" runstate="Runnable" seed="1446467663" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000069" asserts="1" />
+            <test-case id="1-1028" name="Division(0,5,0)" fullname="NUnit_Calc.Tests.DevideTests.Division(0,5,0)" methodname="Division" classname="NUnit_Calc.Tests.DevideTests" runstate="Runnable" seed="719208519" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000059" asserts="1" />
+            <test-case id="1-1029" name="Division(-654653,-5,130930.6d)" fullname="NUnit_Calc.Tests.DevideTests.Division(-654653,-5,130930.6d)" methodname="Division" classname="NUnit_Calc.Tests.DevideTests" runstate="Runnable" seed="1200561306" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000055" asserts="1" />
+            <test-case id="1-1030" name="Division(-654653,5,-130930.6d)" fullname="NUnit_Calc.Tests.DevideTests.Division(-654653,5,-130930.6d)" methodname="Division" classname="NUnit_Calc.Tests.DevideTests" runstate="Runnable" seed="1579841436" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000079" asserts="1" />
+            <test-case id="1-1031" name="Division(&quot;32&quot;,&quot;8&quot;,&quot;4&quot;)" fullname="NUnit_Calc.Tests.DevideTests.Division(&quot;32&quot;,&quot;8&quot;,&quot;4&quot;)" methodname="Division" classname="NUnit_Calc.Tests.DevideTests" runstate="Runnable" seed="519843559" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000065" asserts="1" />
+            <test-case id="1-1032" name="Division(&quot;32&quot;,&quot;3&quot;,10.6666666666667d)" fullname="NUnit_Calc.Tests.DevideTests.Division(&quot;32&quot;,&quot;3&quot;,10.6666666666667d)" methodname="Division" classname="NUnit_Calc.Tests.DevideTests" runstate="Runnable" seed="1245741352" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000058" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1037" name="DivisionBy2" fullname="NUnit_Calc.Tests.DevideTests.DivisionBy2" classname="NUnit_Calc.Tests.DevideTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.163752" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="_JOINTYPE" value="Sequential" />
+            </properties>
+            <test-case id="1-1034" name="DivisionBy2(10.0d,5.0d)" fullname="NUnit_Calc.Tests.DevideTests.DivisionBy2(10.0d,5.0d)" methodname="DivisionBy2" classname="NUnit_Calc.Tests.DevideTests" runstate="Runnable" seed="464800501" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000226" asserts="1" />
+            <test-case id="1-1035" name="DivisionBy2(25.0d,12.5d)" fullname="NUnit_Calc.Tests.DevideTests.DivisionBy2(25.0d,12.5d)" methodname="DivisionBy2" classname="NUnit_Calc.Tests.DevideTests" runstate="Runnable" seed="689305653" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000045" asserts="1" />
+            <test-case id="1-1036" name="DivisionBy2(40.0d,20.0d)" fullname="NUnit_Calc.Tests.DevideTests.DivisionBy2(40.0d,20.0d)" methodname="DivisionBy2" classname="NUnit_Calc.Tests.DevideTests" runstate="Runnable" seed="1426853626" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000037" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1021" name="CosTests" fullname="NUnit_Calc.Tests.CosTests" classname="NUnit_Calc.Tests.CosTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.199844" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1024" name="Cosine" fullname="NUnit_Calc.Tests.CosTests.Cosine" classname="NUnit_Calc.Tests.CosTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.191210" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1023" name="Cosine(3.14159265358979d,-1)" fullname="NUnit_Calc.Tests.CosTests.Cosine(3.14159265358979d,-1)" methodname="Cosine" classname="NUnit_Calc.Tests.CosTests" runstate="Runnable" seed="212501361" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.026744" asserts="1" />
+            <test-case id="1-1022" name="Cosine(30,0.154251449887584d)" fullname="NUnit_Calc.Tests.CosTests.Cosine(30,0.154251449887584d)" methodname="Cosine" classname="NUnit_Calc.Tests.CosTests" runstate="Runnable" seed="1321468530" result="Failed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.190599" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: 0.15425144988758399d
+  But was:  0.15425144988758405d
+]]></message>
+                <stack-trace><![CDATA[   at NUnit_Calc.Tests.CosTests.Cosine(Object input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\CosTests.cs:line 13
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: 0.15425144988758399d
+  But was:  0.15425144988758405d
+]]></message>
+                  <stack-trace><![CDATA[   at NUnit_Calc.Tests.CosTests.Cosine(Object input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\CosTests.cs:line 13
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1078" name="SinTests" fullname="NUnit_Calc.Tests.SinTests" classname="NUnit_Calc.Tests.SinTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.190830" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1081" name="Sinus" fullname="NUnit_Calc.Tests.SinTests.Sinus" classname="NUnit_Calc.Tests.SinTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.190722" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1079" name="Sinus(30,-0.988031624092862d)" fullname="NUnit_Calc.Tests.SinTests.Sinus(30,-0.988031624092862d)" methodname="Sinus" classname="NUnit_Calc.Tests.SinTests" runstate="Runnable" seed="810192876" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000453" asserts="1" />
+            <test-case id="1-1080" name="Sinus(3.14159265358979d,0)" fullname="NUnit_Calc.Tests.SinTests.Sinus(3.14159265358979d,0)" methodname="Sinus" classname="NUnit_Calc.Tests.SinTests" runstate="Runnable" seed="1763380586" result="Failed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.029063" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: 0
+  But was:  1.2246063538223773E-16d
+]]></message>
+                <stack-trace><![CDATA[   at NUnit_Calc.Tests.SinTests.Sinus(Object input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\SinTests.cs:line 13
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: 0
+  But was:  1.2246063538223773E-16d
+]]></message>
+                  <stack-trace><![CDATA[   at NUnit_Calc.Tests.SinTests.Sinus(Object input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\SinTests.cs:line 13
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1038" name="IsNegativeTests" fullname="NUnit_Calc.Tests.IsNegativeTests" classname="NUnit_Calc.Tests.IsNegativeTests" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.199932" total="8" passed="7" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="8">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1043" name="IsNegative_True" fullname="NUnit_Calc.Tests.IsNegativeTests.IsNegative_True" classname="NUnit_Calc.Tests.IsNegativeTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.026932" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <test-case id="1-1040" name="IsNegative_True(-1E-05.0d)" fullname="NUnit_Calc.Tests.IsNegativeTests.IsNegative_True(-1E-05.0d)" methodname="IsNegative_True" classname="NUnit_Calc.Tests.IsNegativeTests" runstate="Runnable" seed="1117683490" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.003352" asserts="1" />
+            <test-case id="1-1042" name="IsNegative_True(&quot;-10000000000000&quot;)" fullname="NUnit_Calc.Tests.IsNegativeTests.IsNegative_True(&quot;-10000000000000&quot;)" methodname="IsNegative_True" classname="NUnit_Calc.Tests.IsNegativeTests" runstate="Runnable" seed="1866772114" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000051" asserts="1" />
+            <test-case id="1-1039" name="IsNegative_True(-1)" fullname="NUnit_Calc.Tests.IsNegativeTests.IsNegative_True(-1)" methodname="IsNegative_True" classname="NUnit_Calc.Tests.IsNegativeTests" runstate="Runnable" seed="1351186210" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.007673" asserts="1" />
+            <test-case id="1-1041" name="IsNegative_True(-999)" fullname="NUnit_Calc.Tests.IsNegativeTests.IsNegative_True(-999)" methodname="IsNegative_True" classname="NUnit_Calc.Tests.IsNegativeTests" runstate="Runnable" seed="111050702" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.007661" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1048" name="IsNegative_False" fullname="NUnit_Calc.Tests.IsNegativeTests.IsNegative_False" classname="NUnit_Calc.Tests.IsNegativeTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.191328" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1045" name="IsNegative_False(1E-05.0d)" fullname="NUnit_Calc.Tests.IsNegativeTests.IsNegative_False(1E-05.0d)" methodname="IsNegative_False" classname="NUnit_Calc.Tests.IsNegativeTests" runstate="Runnable" seed="436152517" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.009507" asserts="1" />
+            <test-case id="1-1047" name="IsNegative_False(&quot;10000000000000&quot;)" fullname="NUnit_Calc.Tests.IsNegativeTests.IsNegative_False(&quot;10000000000000&quot;)" methodname="IsNegative_False" classname="NUnit_Calc.Tests.IsNegativeTests" runstate="Runnable" seed="1311587888" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.010475" asserts="1" />
+            <test-case id="1-1046" name="IsNegative_False(999)" fullname="NUnit_Calc.Tests.IsNegativeTests.IsNegative_False(999)" methodname="IsNegative_False" classname="NUnit_Calc.Tests.IsNegativeTests" runstate="Runnable" seed="1563856087" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.010466" asserts="1" />
+            <test-case id="1-1044" name="IsNegative_False(0)" fullname="NUnit_Calc.Tests.IsNegativeTests.IsNegative_False(0)" methodname="IsNegative_False" classname="NUnit_Calc.Tests.IsNegativeTests" runstate="Runnable" seed="358381640" result="Failed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.190653" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: False
+  But was:  True
+]]></message>
+                <stack-trace><![CDATA[   at NUnit_Calc.Tests.IsNegativeTests.IsNegative_False(Object input) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\IsNegativeTests.cs:line 24
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: False
+  But was:  True
+]]></message>
+                  <stack-trace><![CDATA[   at NUnit_Calc.Tests.IsNegativeTests.IsNegative_False(Object input) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\IsNegativeTests.cs:line 24
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1082" name="SqrtTests" fullname="NUnit_Calc.Tests.SqrtTests" classname="NUnit_Calc.Tests.SqrtTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.190882" total="5" passed="3" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1088" name="Sqrt" fullname="NUnit_Calc.Tests.SqrtTests.Sqrt" classname="NUnit_Calc.Tests.SqrtTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.190779" total="5" passed="3" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="5">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1083" name="Sqrt(9,3)" fullname="NUnit_Calc.Tests.SqrtTests.Sqrt(9,3)" methodname="Sqrt" classname="NUnit_Calc.Tests.SqrtTests" runstate="Runnable" seed="1607404827" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000281" asserts="1" />
+            <test-case id="1-1084" name="Sqrt(&quot;25&quot;,5)" fullname="NUnit_Calc.Tests.SqrtTests.Sqrt(&quot;25&quot;,5)" methodname="Sqrt" classname="NUnit_Calc.Tests.SqrtTests" runstate="Runnable" seed="1247460960" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000061" asserts="1" />
+            <test-case id="1-1087" name="Sqrt(0,0)" fullname="NUnit_Calc.Tests.SqrtTests.Sqrt(0,0)" methodname="Sqrt" classname="NUnit_Calc.Tests.SqrtTests" runstate="Runnable" seed="1448568964" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000056" asserts="1" />
+            <test-case id="1-1086" name="Sqrt(&quot;81&quot;,&quot;9&quot;)" fullname="NUnit_Calc.Tests.SqrtTests.Sqrt(&quot;81&quot;,&quot;9&quot;)" methodname="Sqrt" classname="NUnit_Calc.Tests.SqrtTests" runstate="Runnable" seed="714947978" result="Failed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.028306" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: "9"
+  But was:  9.0d
+]]></message>
+                <stack-trace><![CDATA[   at NUnit_Calc.Tests.SqrtTests.Sqrt(Object input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\SqrtTests.cs:line 16
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: "9"
+  But was:  9.0d
+]]></message>
+                  <stack-trace><![CDATA[   at NUnit_Calc.Tests.SqrtTests.Sqrt(Object input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\SqrtTests.cs:line 16
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="1-1085" name="Sqrt(25,&quot;5&quot;)" fullname="NUnit_Calc.Tests.SqrtTests.Sqrt(25,&quot;5&quot;)" methodname="Sqrt" classname="NUnit_Calc.Tests.SqrtTests" runstate="Runnable" seed="422427045" result="Failed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.028368" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: "5"
+  But was:  5.0d
+]]></message>
+                <stack-trace><![CDATA[   at NUnit_Calc.Tests.SqrtTests.Sqrt(Object input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\SqrtTests.cs:line 16
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: "5"
+  But was:  5.0d
+]]></message>
+                  <stack-trace><![CDATA[   at NUnit_Calc.Tests.SqrtTests.Sqrt(Object input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\SqrtTests.cs:line 16
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1089" name="SubTests" fullname="NUnit_Calc.Tests.SubTests" classname="NUnit_Calc.Tests.SubTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.190818" total="7" passed="6" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="7">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1097" name="Subtraction" fullname="NUnit_Calc.Tests.SubTests.Subtraction" classname="NUnit_Calc.Tests.SubTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.190697" total="7" passed="6" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="7">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1090" name="Subtraction(10,5,5)" fullname="NUnit_Calc.Tests.SubTests.Subtraction(10,5,5)" methodname="Subtraction" classname="NUnit_Calc.Tests.SubTests" runstate="Runnable" seed="3643677" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000497" asserts="1" />
+            <test-case id="1-1091" name="Subtraction(1,100,-99)" fullname="NUnit_Calc.Tests.SubTests.Subtraction(1,100,-99)" methodname="Subtraction" classname="NUnit_Calc.Tests.SubTests" runstate="Runnable" seed="1220631472" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000070" asserts="1" />
+            <test-case id="1-1092" name="Subtraction(0,0.0001d,-0.0001d)" fullname="NUnit_Calc.Tests.SubTests.Subtraction(0,0.0001d,-0.0001d)" methodname="Subtraction" classname="NUnit_Calc.Tests.SubTests" runstate="Runnable" seed="1565271756" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000079" asserts="1" />
+            <test-case id="1-1093" name="Subtraction(100,100,0)" fullname="NUnit_Calc.Tests.SubTests.Subtraction(100,100,0)" methodname="Subtraction" classname="NUnit_Calc.Tests.SubTests" runstate="Runnable" seed="111326535" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000073" asserts="1" />
+            <test-case id="1-1094" name="Subtraction(-1,-5,4)" fullname="NUnit_Calc.Tests.SubTests.Subtraction(-1,-5,4)" methodname="Subtraction" classname="NUnit_Calc.Tests.SubTests" runstate="Runnable" seed="997583815" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000073" asserts="1" />
+            <test-case id="1-1095" name="Subtraction(&quot;1.99&quot;,&quot;0.001&quot;,1.989d)" fullname="NUnit_Calc.Tests.SubTests.Subtraction(&quot;1.99&quot;,&quot;0.001&quot;,1.989d)" methodname="Subtraction" classname="NUnit_Calc.Tests.SubTests" runstate="Runnable" seed="377366880" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000058" asserts="1" />
+            <test-case id="1-1096" name="Subtraction(&quot;201&quot;,&quot;100&quot;,&quot;101&quot;)" fullname="NUnit_Calc.Tests.SubTests.Subtraction(&quot;201&quot;,&quot;100&quot;,&quot;101&quot;)" methodname="Subtraction" classname="NUnit_Calc.Tests.SubTests" runstate="Runnable" seed="1861456655" result="Failed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.026007" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: "101"
+  But was:  101.0d
+]]></message>
+                <stack-trace><![CDATA[   at NUnit_Calc.Tests.SubTests.Subtraction(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\SubTests.cs:line 18
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: "101"
+  But was:  101.0d
+]]></message>
+                  <stack-trace><![CDATA[   at NUnit_Calc.Tests.SubTests.Subtraction(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\SubTests.cs:line 18
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1049" name="IsPositiveTests" fullname="NUnit_Calc.Tests.IsPositiveTests" classname="NUnit_Calc.Tests.IsPositiveTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.201066" total="8" passed="8" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-suite type="ParameterizedMethod" id="1-1059" name="IsPositive_False" fullname="NUnit_Calc.Tests.IsPositiveTests.IsPositive_False" classname="NUnit_Calc.Tests.IsPositiveTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.190476" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <test-case id="1-1055" name="IsPositive_False(0)" fullname="NUnit_Calc.Tests.IsPositiveTests.IsPositive_False(0)" methodname="IsPositive_False" classname="NUnit_Calc.Tests.IsPositiveTests" runstate="Runnable" seed="1308241183" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000279" asserts="1" />
+            <test-case id="1-1057" name="IsPositive_False(-999)" fullname="NUnit_Calc.Tests.IsPositiveTests.IsPositive_False(-999)" methodname="IsPositive_False" classname="NUnit_Calc.Tests.IsPositiveTests" runstate="Runnable" seed="1797527953" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000043" asserts="1" />
+            <test-case id="1-1058" name="IsPositive_False(&quot;-10000000000000&quot;)" fullname="NUnit_Calc.Tests.IsPositiveTests.IsPositive_False(&quot;-10000000000000&quot;)" methodname="IsPositive_False" classname="NUnit_Calc.Tests.IsPositiveTests" runstate="Runnable" seed="1563325755" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000040" asserts="1" />
+            <test-case id="1-1056" name="IsPositive_False(-1E-05.0d)" fullname="NUnit_Calc.Tests.IsPositiveTests.IsPositive_False(-1E-05.0d)" methodname="IsPositive_False" classname="NUnit_Calc.Tests.IsPositiveTests" runstate="Runnable" seed="704731704" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000426" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1054" name="IsPositive_True" fullname="NUnit_Calc.Tests.IsPositiveTests.IsPositive_True" classname="NUnit_Calc.Tests.IsPositiveTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.191104" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <test-case id="1-1050" name="IsPositive_True(10)" fullname="NUnit_Calc.Tests.IsPositiveTests.IsPositive_True(10)" methodname="IsPositive_True" classname="NUnit_Calc.Tests.IsPositiveTests" runstate="Runnable" seed="2075795428" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000180" asserts="1" />
+            <test-case id="1-1051" name="IsPositive_True(1E-05.0d)" fullname="NUnit_Calc.Tests.IsPositiveTests.IsPositive_True(1E-05.0d)" methodname="IsPositive_True" classname="NUnit_Calc.Tests.IsPositiveTests" runstate="Runnable" seed="1584705426" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000048" asserts="1" />
+            <test-case id="1-1052" name="IsPositive_True(999)" fullname="NUnit_Calc.Tests.IsPositiveTests.IsPositive_True(999)" methodname="IsPositive_True" classname="NUnit_Calc.Tests.IsPositiveTests" runstate="Runnable" seed="459124291" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000042" asserts="1" />
+            <test-case id="1-1053" name="IsPositive_True(10000000000000L)" fullname="NUnit_Calc.Tests.IsPositiveTests.IsPositive_True(10000000000000L)" methodname="IsPositive_True" classname="NUnit_Calc.Tests.IsPositiveTests" runstate="Runnable" seed="916716744" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000046" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1012" name="AddTests" fullname="NUnit_Calc.Tests.AddTests" classname="NUnit_Calc.Tests.AddTests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.202031" total="6" passed="4" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1018" name="Addition_DoubleInput" fullname="NUnit_Calc.Tests.AddTests.Addition_DoubleInput" classname="NUnit_Calc.Tests.AddTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.191765" total="5" passed="4" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="5">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1014" name="Addition_DoubleInput(0,-0.0001d,-0.0001d)" fullname="NUnit_Calc.Tests.AddTests.Addition_DoubleInput(0,-0.0001d,-0.0001d)" methodname="Addition_DoubleInput" classname="NUnit_Calc.Tests.AddTests" runstate="Runnable" seed="1070317932" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000385" asserts="1" />
+            <test-case id="1-1015" name="Addition_DoubleInput(-1,-5,-6)" fullname="NUnit_Calc.Tests.AddTests.Addition_DoubleInput(-1,-5,-6)" methodname="Addition_DoubleInput" classname="NUnit_Calc.Tests.AddTests" runstate="Runnable" seed="368659448" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000082" asserts="1" />
+            <test-case id="1-1013" name="Addition_DoubleInput(10,5,15)" fullname="NUnit_Calc.Tests.AddTests.Addition_DoubleInput(10,5,15)" methodname="Addition_DoubleInput" classname="NUnit_Calc.Tests.AddTests" runstate="Runnable" seed="2041452196" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000463" asserts="1" />
+            <test-case id="1-1017" name="Addition_DoubleInput(&quot;201&quot;,&quot;100&quot;,&quot;301&quot;)" fullname="NUnit_Calc.Tests.AddTests.Addition_DoubleInput(&quot;201&quot;,&quot;100&quot;,&quot;301&quot;)" methodname="Addition_DoubleInput" classname="NUnit_Calc.Tests.AddTests" runstate="Runnable" seed="1954754759" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000065" asserts="1" />
+            <test-case id="1-1016" name="Addition_DoubleInput(&quot;1.99&quot;,&quot;0.001&quot;,1.991d)" fullname="NUnit_Calc.Tests.AddTests.Addition_DoubleInput(&quot;1.99&quot;,&quot;0.001&quot;,1.991d)" methodname="Addition_DoubleInput" classname="NUnit_Calc.Tests.AddTests" runstate="Runnable" seed="1509708805" result="Failed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.001347" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: 1.9910000000000001d
+  But was:  1.9909999999999999d
+]]></message>
+                <stack-trace><![CDATA[   at NUnit_Calc.Tests.AddTests.Addition_DoubleInput(Double input1, Double input2, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\AddTests.cs:line 16
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: 1.9910000000000001d
+  But was:  1.9909999999999999d
+]]></message>
+                  <stack-trace><![CDATA[   at NUnit_Calc.Tests.AddTests.Addition_DoubleInput(Double input1, Double input2, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\AddTests.cs:line 16
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1020" name="Addition_ObjectInput" fullname="NUnit_Calc.Tests.AddTests.Addition_ObjectInput" classname="NUnit_Calc.Tests.AddTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.192053" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1019" name="Addition_ObjectInput(10,5,15)" fullname="NUnit_Calc.Tests.AddTests.Addition_ObjectInput(10,5,15)" methodname="Addition_ObjectInput" classname="NUnit_Calc.Tests.AddTests" runstate="Runnable" seed="1832057712" result="Failed" label="Error" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.001360" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NUnit_Calc.Tests.AddTests.Addition_ObjectInput(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\AddTests.cs:line 22]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1000" name="AbsTests" fullname="NUnit_Calc.Tests.AbsTests" classname="NUnit_Calc.Tests.AbsTests" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.202276" total="8" passed="6" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="7">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1008" name="Abs_NegativeScenario" fullname="NUnit_Calc.Tests.AbsTests.Abs_NegativeScenario" classname="NUnit_Calc.Tests.AbsTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.190850" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <test-case id="1-1007" name="Abs_NegativeScenario(1000,-1000)" fullname="NUnit_Calc.Tests.AbsTests.Abs_NegativeScenario(1000,-1000)" methodname="Abs_NegativeScenario" classname="NUnit_Calc.Tests.AbsTests" runstate="Runnable" seed="1975314839" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000400" asserts="1" />
+            <test-case id="1-1006" name="Abs_NegativeScenario(-1000,-1000)" fullname="NUnit_Calc.Tests.AbsTests.Abs_NegativeScenario(-1000,-1000)" methodname="Abs_NegativeScenario" classname="NUnit_Calc.Tests.AbsTests" runstate="Runnable" seed="198176080" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000908" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1005" name="Abs_PossitiveScenario" fullname="NUnit_Calc.Tests.AbsTests.Abs_PossitiveScenario" classname="NUnit_Calc.Tests.AbsTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.192114" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1001" name="Abs_PossitiveScenario(-5,5)" fullname="NUnit_Calc.Tests.AbsTests.Abs_PossitiveScenario(-5,5)" methodname="Abs_PossitiveScenario" classname="NUnit_Calc.Tests.AbsTests" runstate="Runnable" seed="1071740547" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000248" asserts="1" />
+            <test-case id="1-1002" name="Abs_PossitiveScenario(5,5)" fullname="NUnit_Calc.Tests.AbsTests.Abs_PossitiveScenario(5,5)" methodname="Abs_PossitiveScenario" classname="NUnit_Calc.Tests.AbsTests" runstate="Runnable" seed="1668364843" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000315" asserts="1" />
+            <test-case id="1-1003" name="Abs_PossitiveScenario(0,0)" fullname="NUnit_Calc.Tests.AbsTests.Abs_PossitiveScenario(0,0)" methodname="Abs_PossitiveScenario" classname="NUnit_Calc.Tests.AbsTests" runstate="Runnable" seed="1816309799" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000323" asserts="1" />
+            <test-case id="1-1004" name="Abs_PossitiveScenario(-5.87d,5.87d)" fullname="NUnit_Calc.Tests.AbsTests.Abs_PossitiveScenario(-5.87d,5.87d)" methodname="Abs_PossitiveScenario" classname="NUnit_Calc.Tests.AbsTests" runstate="Runnable" seed="912891003" result="Failed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.001604" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: 5.8700000000000001d
+  But was:  6.0d
+]]></message>
+                <stack-trace><![CDATA[   at NUnit_Calc.Tests.AbsTests.Abs_PossitiveScenario(Object input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\AbsTests.cs:line 16
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: 5.8700000000000001d
+  But was:  6.0d
+]]></message>
+                  <stack-trace><![CDATA[   at NUnit_Calc.Tests.AbsTests.Abs_PossitiveScenario(Object input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\AbsTests.cs:line 16
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1011" name="Abs_StringInput" fullname="NUnit_Calc.Tests.AbsTests.Abs_StringInput" classname="NUnit_Calc.Tests.AbsTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.192286" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1009" name="Abs_StringInput(&quot;-999&quot;,999)" fullname="NUnit_Calc.Tests.AbsTests.Abs_StringInput(&quot;-999&quot;,999)" methodname="Abs_StringInput" classname="NUnit_Calc.Tests.AbsTests" runstate="Runnable" seed="1761973983" result="Passed" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.000213" asserts="1" />
+            <test-case id="1-1010" name="Abs_StringInput(&quot;-999.99&quot;,&quot;999.99&quot;)" fullname="NUnit_Calc.Tests.AbsTests.Abs_StringInput(&quot;-999.99&quot;,&quot;999.99&quot;)" methodname="Abs_StringInput" classname="NUnit_Calc.Tests.AbsTests" runstate="Runnable" seed="478428936" result="Failed" label="Error" start-time="2021-06-12 15:00:58Z" end-time="2021-06-12 15:00:58Z" duration="0.001447" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at NUnit_Calc.Tests.AbsTests.Abs_StringInput(String input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_NUnit_Dzianis_Dukhnou\Tests\AbsTests.cs:line 30]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,714 @@
+﻿<html xmlns:tp="http://schemas.datacontract.org/2004/07/Microsoft.VisualStudio.TestPlatform.Extensions.HtmlLogger.ObjectModel" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <body>
+    <h1>Test run details</h1>
+    <div class="summary">
+      <div class="block"><span>Total tests</span><div class="total-tests">72</div><br></div>
+      <div class="block"><span>Passed  : </span><span class="passedTests">52</span><br><span>Failed  : </span><span class="failedTests">20</span><br><span>Skipped : </span><span class="skippedTests">0</span><br></div>
+      <div class="block"><span>Pass percentage</span><div class="pass-percentage">72 %</div><br></div>
+      <div class="block"><span>Run duration</span><div class="test-run-time">1s 422ms</div><br></div><br></div>
+    <h2>Failed Results</h2>
+    <div class="list-row" onclick="ToggleClass('1099612156-failedResult')">C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll</div>
+    <div class="inner-row" Id="1099612156-failedResult" style="display:block;">
+      <div class="row" onclick="ToggleClass('03ad944c-cc58-649f-eff2-22c3b459bc4d-FailedResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.AbsTests.Abs_PossitiveScenario</span><div class="duration"><span>58ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="03ad944c-cc58-649f-eff2-22c3b459bc4d-FailedResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Abs_PossitiveScenario (-5,5)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Abs_PossitiveScenario (5,5)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Abs_PossitiveScenario (0,0)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Abs_PossitiveScenario (-5.87,5.87)</span><div class="duration"><span>57ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Assert.AreEqual failed. Expected:&lt;5.87&gt;. Actual:&lt;6&gt;. </pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at MSTest_Calc.Tests.AbsTests.Abs_PossitiveScenario(Double input, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\AbsTests.cs:line 15
+</pre></span><br></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('c92e0f3e-a648-7581-9ff1-4e82d0f6244a-FailedResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.AbsTests.Abs_StringInput</span><div class="duration"><span>5ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="c92e0f3e-a648-7581-9ff1-4e82d0f6244a-FailedResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Abs_StringInput (-999,999)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Abs_StringInput (999.99,999.99)</span><div class="duration"><span>5ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.AbsTests.Abs_StringInput threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Abs(Object a)
+   at MSTest_Calc.Tests.AbsTests.Abs_StringInput(String input, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\AbsTests.cs:line 31
+</pre></span><br></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('82f4e3c7-5503-657f-9ebe-3235783310cf-FailedResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.AddTests.Addition_DoubleInput</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="82f4e3c7-5503-657f-9ebe-3235783310cf-FailedResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Addition_DoubleInput (10,5,15)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Addition_DoubleInput (0,-0.0001,-0.0001)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Addition_DoubleInput (-1,-5,-6)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Addition_DoubleInput (1.99,0.001,1.991)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Assert.AreEqual failed. Expected:&lt;1.991&gt;. Actual:&lt;1.991&gt;. </pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at MSTest_Calc.Tests.AddTests.Addition_DoubleInput(Double input1, Double input2, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\AddTests.cs:line 15
+</pre></span><br></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('a4a5d0ce-1b48-66aa-245b-96e6604eb4c2-FailedResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.IsNegativeTests.IsNegative_False</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="a4a5d0ce-1b48-66aa-245b-96e6604eb4c2-FailedResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> IsNegative_False (0)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Assert.IsFalse failed. </pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at MSTest_Calc.Tests.IsNegativeTests.IsNegative_False(Object input) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\IsNegativeTests.cs:line 25
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsNegative_False (1E-05)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsNegative_False (999)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsNegative_False (10000000000000)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('60c42eab-eb24-7a40-eca0-2211e61b90dc-FailedResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.PowTests.Pow</span><div class="duration"><span>6ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="60c42eab-eb24-7a40-eca0-2211e61b90dc-FailedResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (3,2,9)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (3,1,3)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (0,5,0)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (-2,2,4)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (-3,3,-27)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (2.55,3,16.581375)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (32,8,1048576)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('d4e42903-a347-408e-a33b-1165626b5c81-FailedResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.SinTests.Sinus</span><div class="duration"><span>2ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="d4e42903-a347-408e-a33b-1165626b5c81-FailedResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Sinus (30,-0.988031624092862)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Sinus (3.14159265358979,0)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Assert.AreEqual failed. Expected:&lt;0 (System.Int32)&gt;. Actual:&lt;1.22460635382238E-16 (System.Double)&gt;. </pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at MSTest_Calc.Tests.SinTests.Sinus(Object input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\SinTests.cs:line 13
+</pre></span><br></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('4556031d-4598-2cbc-1307-2a2db2d18604-FailedResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.SqrtTests.Sqrt</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="4556031d-4598-2cbc-1307-2a2db2d18604-FailedResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Sqrt (9,3)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Sqrt (6.754801,2.599)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Assert.AreEqual failed. Expected:&lt;2.599&gt;. Actual:&lt;2.64575131106459&gt;. </pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at MSTest_Calc.Tests.SqrtTests.Sqrt(Double input, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\SqrtTests.cs:line 14
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Sqrt (0,0)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+        </div></a></div>
+    <h2>All Results</h2>
+    <div class="list-row" onclick="ToggleClass('1099612156')">C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\bin\Debug\MSTest.dll</div>
+    <div class="inner-row" Id="1099612156" style="display:none;">
+      <div class="row" onclick="ToggleClass('bae3b7fd-a9f8-9d8c-3aef-04fb5e159082-ResultList')">
+        <div><span class="pass">✔</span><span> MSTest_Calc.Tests.AbsTests.Abs_NegativeScenario</span><div class="duration"><span>160ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="bae3b7fd-a9f8-9d8c-3aef-04fb5e159082-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Abs_NegativeScenario (-1000,-1000)</span><div class="duration"><span>6ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Abs_NegativeScenario (1000,-1000)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('03ad944c-cc58-649f-eff2-22c3b459bc4d-ResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.AbsTests.Abs_PossitiveScenario</span><div class="duration"><span>58ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="03ad944c-cc58-649f-eff2-22c3b459bc4d-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Abs_PossitiveScenario (-5,5)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Abs_PossitiveScenario (5,5)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Abs_PossitiveScenario (0,0)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Abs_PossitiveScenario (-5.87,5.87)</span><div class="duration"><span>57ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Assert.AreEqual failed. Expected:&lt;5.87&gt;. Actual:&lt;6&gt;. </pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at MSTest_Calc.Tests.AbsTests.Abs_PossitiveScenario(Double input, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\AbsTests.cs:line 15
+</pre></span><br></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('c92e0f3e-a648-7581-9ff1-4e82d0f6244a-ResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.AbsTests.Abs_StringInput</span><div class="duration"><span>5ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="c92e0f3e-a648-7581-9ff1-4e82d0f6244a-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Abs_StringInput (-999,999)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Abs_StringInput (999.99,999.99)</span><div class="duration"><span>5ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.AbsTests.Abs_StringInput threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Abs(Object a)
+   at MSTest_Calc.Tests.AbsTests.Abs_StringInput(String input, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\AbsTests.cs:line 31
+</pre></span><br></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('82f4e3c7-5503-657f-9ebe-3235783310cf-ResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.AddTests.Addition_DoubleInput</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="82f4e3c7-5503-657f-9ebe-3235783310cf-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Addition_DoubleInput (10,5,15)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Addition_DoubleInput (0,-0.0001,-0.0001)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Addition_DoubleInput (-1,-5,-6)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Addition_DoubleInput (1.99,0.001,1.991)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Assert.AreEqual failed. Expected:&lt;1.991&gt;. Actual:&lt;1.991&gt;. </pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at MSTest_Calc.Tests.AddTests.Addition_DoubleInput(Double input1, Double input2, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\AddTests.cs:line 15
+</pre></span><br></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('7b75a0d8-2fc7-3704-75ee-1771984f67d9-ResultList')">
+        <div><span class="pass">✔</span><span> MSTest_Calc.Tests.CosTests.Cosine</span><div class="duration"><span>&lt; 1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="7b75a0d8-2fc7-3704-75ee-1771984f67d9-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Cosine (30,0.154251449887584)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Cosine (3.14159265358979,-1)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('b813ce6e-7006-26e6-d40a-6af970f2ee56-ResultList')">
+        <div><span class="pass">✔</span><span> MSTest_Calc.Tests.DivideTests.Division_DataDrivenXML</span><div class="duration"><span>317ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="b813ce6e-7006-26e6-d40a-6af970f2ee56-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Division_DataDrivenXML (Data Row 0)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Division_DataDrivenXML (Data Row 1)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Division_DataDrivenXML (Data Row 2)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Division_DataDrivenXML (Data Row 3)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Division_DataDrivenXML (Data Row 4)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('a4a5d0ce-1b48-66aa-245b-96e6604eb4c2-ResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.IsNegativeTests.IsNegative_False</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="a4a5d0ce-1b48-66aa-245b-96e6604eb4c2-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> IsNegative_False (0)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Assert.IsFalse failed. </pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at MSTest_Calc.Tests.IsNegativeTests.IsNegative_False(Object input) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\IsNegativeTests.cs:line 25
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsNegative_False (1E-05)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsNegative_False (999)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsNegative_False (10000000000000)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('6dfdccdd-797d-f196-fa81-5e3f3ca8a649-ResultList')">
+        <div><span class="pass">✔</span><span> MSTest_Calc.Tests.IsNegativeTests.IsNegative_True</span><div class="duration"><span>&lt; 1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="6dfdccdd-797d-f196-fa81-5e3f3ca8a649-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsNegative_True (-1)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsNegative_True (-1E-05)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsNegative_True (-999)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsNegative_True (-10000000000000)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('0017af6f-5e15-af5e-4723-fcb3848fdd66-ResultList')">
+        <div><span class="pass">✔</span><span> MSTest_Calc.Tests.IsPositiveTests.IsPositive_False</span><div class="duration"><span>&lt; 1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="0017af6f-5e15-af5e-4723-fcb3848fdd66-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsPositive_False (0)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsPositive_False (-1E-05)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsPositive_False (-999)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsPositive_False (-10000000000000)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('bc29f2cc-d77d-5e70-bf28-0fecc1bf05ef-ResultList')">
+        <div><span class="pass">✔</span><span> MSTest_Calc.Tests.IsPositiveTests.IsPositive_True</span><div class="duration"><span>&lt; 1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="bc29f2cc-d77d-5e70-bf28-0fecc1bf05ef-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsPositive_True (10)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsPositive_True (1E-05)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsPositive_True (999)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> IsPositive_True (10000000000000)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('f46a2ff4-e43f-94d7-f9a3-d4593fe6e46d-ResultList')">
+        <div><span class="pass">✔</span><span> MSTest_Calc.Tests.MultiplyTests.Multiplication</span><div class="duration"><span>&lt; 1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="f46a2ff4-e43f-94d7-f9a3-d4593fe6e46d-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Multiplication (3,3,9)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Multiplication (3,1,3)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Multiplication (0,5,0)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Multiplication (-3,5,-15)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Multiplication (2.55,3.33,8.4915)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('60c42eab-eb24-7a40-eca0-2211e61b90dc-ResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.PowTests.Pow</span><div class="duration"><span>6ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="60c42eab-eb24-7a40-eca0-2211e61b90dc-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (3,2,9)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (3,1,3)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (0,5,0)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (-2,2,4)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (-3,3,-27)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (2.55,3,16.581375)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Pow (32,8,1048576)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Test method MSTest_Calc.Tests.PowTests.Pow threw exception: 
+System.NotFiniteNumberException: Wrong input</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at MSTest_Calc.Tests.PowTests.Pow(Object input1, Object input2, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\PowTests.cs:line 18
+</pre></span><br></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('d4e42903-a347-408e-a33b-1165626b5c81-ResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.SinTests.Sinus</span><div class="duration"><span>2ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="d4e42903-a347-408e-a33b-1165626b5c81-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Sinus (30,-0.988031624092862)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Sinus (3.14159265358979,0)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Assert.AreEqual failed. Expected:&lt;0 (System.Int32)&gt;. Actual:&lt;1.22460635382238E-16 (System.Double)&gt;. </pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at MSTest_Calc.Tests.SinTests.Sinus(Object input, Object expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\SinTests.cs:line 13
+</pre></span><br></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('4556031d-4598-2cbc-1307-2a2db2d18604-ResultList')">
+        <div><span class="fail">✘</span><span> MSTest_Calc.Tests.SqrtTests.Sqrt</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="4556031d-4598-2cbc-1307-2a2db2d18604-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Sqrt (9,3)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="fail">✘</span><span> Sqrt (6.754801,2.599)</span><div class="duration"><span>1ms</span><br></div>
+            </div>
+            <div class="error-info">
+    Error: <span class="error-message"><pre>Assert.AreEqual failed. Expected:&lt;2.599&gt;. Actual:&lt;2.64575131106459&gt;. </pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at MSTest_Calc.Tests.SqrtTests.Sqrt(Double input, Double expected) in C:\Users\Dzianis_Dukhnou\source\repos\M5_Dzianis_Dukhnou\M5_MSTest_Dzianis_Dukhnou\Tests\SqrtTests.cs:line 14
+</pre></span><br></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Sqrt (0,0)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+        </div></a><div class="row" onclick="ToggleClass('82af3e9d-48b7-e4f3-b13a-72bafa68467f-ResultList')">
+        <div><span class="pass">✔</span><span> MSTest_Calc.Tests.SubTests.Subtraction</span><div class="duration"><span>&lt; 1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div><a Id="82af3e9d-48b7-e4f3-b13a-72bafa68467f-ResultList" style="display:none;"><div class="inner-row">
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Subtraction (10,5,5)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Subtraction (1,100,-99)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Subtraction (0,0.0001,-0.0001)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Subtraction (100,100,0)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+          <div class="leaf-division">
+            <div><span class="pass">✔</span><span> Subtraction (-1,-5,4)</span><div class="duration"><span>&lt; 1ms</span><br></div>
+            </div>
+            <div class="error-info"></div>
+          </div>
+        </div></a></div>
+  </body><script language="javascript">
+        function ToggleClass(id) {
+        var elem = document.getElementById(id);
+        if (elem.style.display == "none") {
+        elem.style.display = "block";
+        }
+        else {
+        elem.style.display = "none";
+        }
+        }
+      </script><style>
+        body { font-family: Calibri, Verdana, Arial, sans-serif; background-color: White; color: Black; }
+        h2 {
+        margin-top: 15px;
+        margin-bottom:10px;
+        }
+        pre {
+        white-space: pre-wrap;
+        }
+        .summary {font-family:monospace;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#d7e9fa;
+        }
+        .list-row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#ffffff;
+        }
+        .inner-row{
+        border: 2px solid #ffffff;
+        padding-left:1%;
+        margin-left:1%;
+        background-color:#ffffff;
+        }
+        .block{
+        width : 150px;
+        }
+        .leaf-division{
+        border: 2px solid #ffffff;
+        background-color:#e6eff7;
+        }
+        .pass { color: #0c0; }
+        .fail { color: #c00; }
+        .error-message { color : brown; }
+        .error-stack-trace { color: brown; }
+        .duration {float:right;padding-right:1%;}
+        .total-tests { font-size : 30px}
+        .test-run-time { font-size : 30px}
+        .pass-percentage { font-size : 30px}
+        .error-info{
+        margin-left:16px;
+        }
+      </style>
+</html>

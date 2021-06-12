@@ -1,0 +1,4 @@
+C:\Users\Dzianis_Dukhnou\source\repos\NUnit_Calc\obj\Debug\net45\NUnit_Calc.csprojAssemblyReference.cache
+C:\Users\Dzianis_Dukhnou\source\repos\NUnit_Calc\obj\Debug\net45\NUnit_Calc.AssemblyInfoInputs.cache
+C:\Users\Dzianis_Dukhnou\source\repos\NUnit_Calc\obj\Debug\net45\NUnit_Calc.AssemblyInfo.cs
+C:\Users\Dzianis_Dukhnou\source\repos\NUnit_Calc\obj\Debug\net45\NUnit_Calc.csproj.CoreCompileInputs.cache

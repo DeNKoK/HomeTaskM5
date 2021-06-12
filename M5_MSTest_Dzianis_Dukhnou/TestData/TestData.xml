@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tests>
+	<Division Input1="1" Input2="2" Output="0.5"/>
+	<Division Input1="3" Input2="1" Output="3"/>
+	<Division Input1="0" Input2="5" Output="0"/>
+	<Division Input1="-654653" Input2="-5" Output="130930.6"/>
+	<Division Input1="-654653" Input2="5" Output="-130930.6"/>
+</Tests>
